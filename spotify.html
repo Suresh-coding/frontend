@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spotify clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg-black p-8">
+      <div class="h-[90vh] flex gap-5">
+        <div class="bg-zinc-900 w-2/10 h-[85vh] rounded-2xl">
+          <!-- header of sidebar -->
+          <div class="flex justify-between">
+            <h2 class="font-bold mt-2 mx-2 text-white">Your Library</h2>
+            <div class="flex gap-5 py-1 px-2">
+              <div
+                class="bg-zinc-800 size-8 rounded-full flex justify-center items-center font-bold text-white"
+              >
+                +
+              </div>
+              <div
+                class="bg-zinc-800 size-8 rounded-full flex justify-center items-center font-bold text-white"
+              >
+                ::
+              </div>
+            </div>
+          </div>
+          <!-- Playlist and artist -->
+          <div class="flex mt-3 gap-3 space-x-8">
+            <div
+              class="bg-zinc-800 mx-1 px-4 py-2 rounded-3xl font-bold text-white"
+            >
+              Playlist
+            </div>
+            <div class="bg-zinc-800 px-4 py-2 rounded-3xl font-bold text-white">
+              Artist
+            </div>
+          </div>
+          <!-- artist names -->
+          <div class="bg-zinc-900 flex h-14 mt-5">
+            <div class="h-full w-2/10">
+              <img
+                class="size-14 p-1 rounded-2xl hover:cursor-pointer"
+                src="media/SanamTeriKasam.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text-white h-full w-8/10">
+              <div class="font-bold p-2 hover:cursor-pointer">
+                Sanam teri kasam
+              </div>
+              <div class="text-gray-500 px-2 -my-3">Ankit tiwari</div>
+            </div>
+          </div>
+          <div class="bg-zinc-900 flex h-14 mt-5">
+            <div class="bg-zinc-900 h-full w-2/10">
+              <img
+                class="size-14 p-1 rounded-2xl hover:cursor-pointer"
+                src="media/Aashiqui2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bg-zinc-900 text-white h-full w-8/10">
+              <div class="font-bold p-2 hover:cursor-pointer">Tum Hi Ho</div>
+              <div class="text-gray-500 px-2 -my-3">Arijit singh</div>
+            </div>
+          </div>
+          <div class="bg-zinc-900 flex h-14 mt-5">
+            <div class="bg-zinc-900 h-full w-2/10">
+              <img
+                class="size-14 p-1 rounded-2xl hover:cursor-pointer"
+                src="media/sanam re.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bg-zinc-900 text-white h-full w-8/10">
+              <div class="font-bold p-2 hover:cursor-pointer">Sanam re</div>
+              <div class="text-gray-500 px-2 -my-3">Arijit singh</div>
+            </div>
+          </div>
+          <div class="bg-zinc-900 flex h-14 mt-5">
+            <div class="bg-zinc-900 h-full w-2/10">
+              <img
+                class="size-14 p-1 rounded-2xl hover:cursor-pointer"
+                src="media/SanamTeriKasam.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bg-zinc-900 text-white h-full w-8/10">
+              <div class="font-bold p-2 hover:cursor-pointer">Tera chera</div>
+              <div class="text-gray-500 px-2 -my-3">Arijit singh</div>
+            </div>
+          </div>
+          <div class="bg-zinc-900 flex h-14 mt-5">
+            <div class="bg-zinc-900 h-full w-2/10">
+              <img
+                class="size-14 p-1 rounded-2xl hover:cursor-pointer"
+                src="media/zara sa.jpg"
+                alt=""
+              />
+            </div>
+            <div class="bg-zinc-900 text-white h-full w-8/10">
+              <div class="font-bold p-2 hover:cursor-pointer">zara sa</div>
+              <div class="text-gray-500 px-2 -my-3">K.K</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-zinc-900 w-6/10 h-[85vh] rounded-3xl">
+          <!-- Header of mid part -->
+          <div class="bg-zinc-900 h-1/10 flex space-x-14 p-1 rounded-3xl">
+            <div
+              class="bg-zinc-800 mx-1 px-4 py-2 rounded-3xl font-bold text-white justify-center"
+            >
+              All
+            </div>
+            <div
+              class="bg-zinc-800 mx-1 px-4 py-2 rounded-3xl font-bold text-white justify-center"
+            >
+              Most Played Songs
+            </div>
+            <div class="bg-zinc-900 px-2 py-2 rounded-3xl font-bold text-white">
+              <i class="fa-brands fa-spotify"></i>
+            </div>
+          </div>
+          <!-- mid parts -->
+          <div
+            class="bg-zinc-900 h-9/10 flex flex-wrap justify-center items-center gap-3 p-1 rounded-3xl"
+          >
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/Aashiqui2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Aashiqui2</div>
+              <div class="text-gray-500">Arijit Singh</div>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/Arijit singh.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Ultimate Love songs</div>
+              <div class="text-gray-500">Arijit Singh</div>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/SanamTeriKasam.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Tera chera</div>
+              <div class="text-gray-500">Arijit Singh</div>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/zara sa.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Zara Sa</div>
+              <div class="text-gray-500">K.K</div>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/SanamTeriKasam.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Sanam Teri Kasam</div>
+              <div class="text-gray-500">Ankit Tiwari</div>
+            </div>
+            <div>
+              <div>
+                <img class="size-40 rounded-2xl" src="media/check.jpg" alt="" />
+              </div>
+              <div class="text-white font-bold">Cheques</div>
+              <div class="text-gray-500">Shubh</div>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="size-40 rounded-2xl"
+                  src="media/Aashiqui2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text-white font-bold">Aashiqui2</div>
+              <div class="text-gray-500">Arijit Singh</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-zinc-900 w-2/10 h-[85vh] rounded-2xl"></div>
+      </div>
+      <div class="bg-zinc-900 rounded-3xl h-[10vh]"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
